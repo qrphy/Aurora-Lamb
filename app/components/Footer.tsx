@@ -18,7 +18,7 @@ export default function Footer() {
             <a
               href="#"
               onClick={scrollTop}
-              className="inline-flex items-center text-xl font-bold text-black mb-4 hover:text-blue-400 transition"
+              className="inline-flex items-center text-xl font-bold text-black dark:text-white mb-4 hover:text-blue-400 transition"
               aria-label="Aurora Lamb - Go to homepage"
             >
               Aurora Lamb
@@ -30,7 +30,7 @@ export default function Footer() {
 
           {/* İletişim */}
           <div>
-            <h3 className="text-black font-semibold mb-4">İletişim</h3>
+            <h3 className="text-black dark:text-white font-semibold mb-4">İletişim</h3>
             <ul className="space-y-3 text-sm">
               <li>
                 <a
@@ -59,7 +59,7 @@ export default function Footer() {
 
           {/* Sosyal Medya */}
           <div>
-            <h3 className="text-black font-semibold mb-4">Sosyal Medya</h3>
+            <h3 className="text-black dark:text-white font-semibold mb-4">Sosyal Medya</h3>
             <div className="flex gap-4">
               <a
                 href="https://facebook.com/auroralamb"
@@ -110,7 +110,7 @@ export default function Footer() {
 
           {/* Hukuki Linkler */}
           <div>
-            <h3 className="text-black font-semibold mb-4">Hukuki</h3>
+            <h3 className="text-black dark:text-white font-semibold mb-4">Hukuki</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="#privacy" className="text-gray-400 hover:text-blue-400 transition">
