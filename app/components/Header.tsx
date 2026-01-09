@@ -64,10 +64,10 @@ export default function Header() {
         >
           <ul className="flex flex-col m-0 p-0 list-none">
             <li><a 
-              href="/features" 
+              href="/models" 
               onClick={handleNavClick}
               className="block px-4 py-3 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/5"
-            >Özellikler</a></li>
+            >Modeller</a></li>
             <li><a 
               href="/usage" 
               onClick={handleNavClick}
