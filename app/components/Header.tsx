@@ -26,7 +26,7 @@ export default function Header() {
 
         <nav className="hidden md:flex flex-1 justify-center items-center" role="navigation" aria-label="Page sections">
           <ul className="inline-flex items-center gap-6 m-0 p-0 list-none">
-            <li><a href="/features" className="text-gray-800 dark:text-gray-200 hover:underline">Özellikler</a></li>
+            <li><a href="/models" className="text-gray-800 dark:text-gray-200 hover:underline">Modeller</a></li>
             <li><a href="/usage" className="text-gray-800 dark:text-gray-200 hover:underline">Kullanım</a></li>
             <li><a href="/reviews" className="text-gray-800 dark:text-gray-200 hover:underline">Yorumlar</a></li>
             <li><a href="/faq" className="text-gray-800 dark:text-gray-200 hover:underline">FAQ</a></li>

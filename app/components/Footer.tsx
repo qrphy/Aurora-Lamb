@@ -141,12 +141,6 @@ export default function Footer() {
           {/* Copyright */}
           <div className="text-center text-sm text-gray-400">
             <p>&copy; 2026 Aurora Lamb. Tüm hakları saklıdır.</p>
-            <p className="mt-2">
-              Tasarım ve Geliştirme:{" "}
-              <a href="https://www.furkantitiz.dev" target="_blank" className="text-blue-400 hover:text-blue-300 transition">
-                Aurora Lamb Team
-              </a>
-            </p>
           </div>
         </div>
       </div>
