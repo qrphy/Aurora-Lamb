@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useState } from "react";
+import Link from "next/link";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,17 +19,17 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 h-16 bg-white/95 dark:bg-black/70 backdrop-blur border-b border-gray-100 dark:border-white/5 z-50" role="banner">
       <div className="max-w-5xl mx-auto px-4 h-full flex items-center justify-between">
         <div className="flex-none">
-          <a href="#" onClick={scrollTop} className="inline-flex items-center text-lg font-bold text-gray-900 dark:text-gray-100" aria-label="Aurora Lamb - Go to homepage">
+          <Link href="/" className="inline-flex items-center text-lg font-bold text-gray-900 dark:text-gray-100 transition" aria-label="Aurora Lamb - Go to homepage">
             Aurora Lamb
-          </a>
+          </Link>
         </div>
 
         <nav className="hidden md:flex flex-1 justify-center items-center" role="navigation" aria-label="Page sections">
           <ul className="inline-flex items-center gap-6 m-0 p-0 list-none">
-            <li><a href="#features" className="text-gray-800 dark:text-gray-200 hover:underline">Özellikler</a></li>
-            <li><a href="#usage" className="text-gray-800 dark:text-gray-200 hover:underline">Kullanım</a></li>
-            <li><a href="#reviews" className="text-gray-800 dark:text-gray-200 hover:underline">Yorumlar</a></li>
-            <li><a href="#faq" className="text-gray-800 dark:text-gray-200 hover:underline">FAQ</a></li>
+            <li><a href="/features" className="text-gray-800 dark:text-gray-200 hover:underline">Özellikler</a></li>
+            <li><a href="/usage" className="text-gray-800 dark:text-gray-200 hover:underline">Kullanım</a></li>
+            <li><a href="/reviews" className="text-gray-800 dark:text-gray-200 hover:underline">Yorumlar</a></li>
+            <li><a href="/faq" className="text-gray-800 dark:text-gray-200 hover:underline">FAQ</a></li>
           </ul>
         </nav>
 
@@ -63,17 +64,17 @@ export default function Header() {
         >
           <ul className="flex flex-col m-0 p-0 list-none">
             <li><a 
-              href="#features" 
+              href="/features" 
               onClick={handleNavClick}
               className="block px-4 py-3 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/5"
             >Özellikler</a></li>
             <li><a 
-              href="#usage" 
+              href="/usage" 
               onClick={handleNavClick}
               className="block px-4 py-3 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/5"
             >Kullanım</a></li>
             <li><a 
-              href="#reviews" 
+              href="/reviews" 
               onClick={handleNavClick}
               className="block px-4 py-3 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/5"
             >Yorumlar</a></li>
