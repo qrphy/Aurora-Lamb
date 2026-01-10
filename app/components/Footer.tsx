@@ -25,7 +25,7 @@ export default function Footer() {
               Aurora Lamb
             </a>
             <p className="text-gray-400 text-sm leading-relaxed">
-                It gives light. <br /> It gives atmosphere.
+              It gives light. <br /> It gives atmosphere.
             </p>
           </div>
 
