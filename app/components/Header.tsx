@@ -33,41 +33,49 @@ export default function Header() {
         </div>
 
         <nav
-          className="hidden md:flex flex-1 justify-center items-center"
+          className="hidden md:flex flex-1 justify-center items-center font-medium"
           role="navigation"
           aria-label="Page sections"
         >
           <ul className="inline-flex items-center gap-6 m-0 p-0 list-none">
             <li>
               <a
-                href="/models"
-                className="text-gray-800 dark:text-gray-200 hover:underline"
+                href="/product"
+                className="text-gray-800 dark:text-gray-200 hover:underline underline-offset-2"
               >
-                Models
+                Product
               </a>
             </li>
             <li>
               <a
-                href="/usage"
-                className="text-gray-800 dark:text-gray-200 hover:underline"
+                href="/features"
+                className="text-gray-800 dark:text-gray-200 hover:underline underline-offset-2"
               >
-                Usage
+                Features
               </a>
             </li>
             <li>
               <a
-                href="/reviews"
-                className="text-gray-800 dark:text-gray-200 hover:underline"
+                href="/how-to-use"
+                className="text-gray-800 dark:text-gray-200 hover:underline underline-offset-2"
               >
-                Reviews
+                How to Use
               </a>
             </li>
             <li>
               <a
-                href="/faq"
-                className="text-gray-800 dark:text-gray-200 hover:underline"
+                href="/pricing"
+                className="text-gray-800 dark:text-gray-200 hover:underline underline-offset-2"
               >
-                FAQ
+                Pricing
+              </a>
+            </li>
+            <li>
+              <a
+                href="/support"
+                className="text-gray-800 dark:text-gray-200 hover:underline underline-offset-2"
+              >
+                Support
               </a>
             </li>
           </ul>
@@ -130,38 +138,47 @@ export default function Header() {
           <ul className="flex flex-col m-0 p-0 list-none">
             <li>
               <a
-                href="/models"
+                href="/product"
                 onClick={handleNavClick}
                 className="block px-4 py-3 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/5"
               >
-                Models
+                Product
               </a>
             </li>
             <li>
               <a
-                href="/usage"
+                href="/features"
                 onClick={handleNavClick}
                 className="block px-4 py-3 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/5"
               >
-                Usage
+                Features
               </a>
             </li>
             <li>
               <a
-                href="/reviews"
+                href="/how-to-use"
                 onClick={handleNavClick}
                 className="block px-4 py-3 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/5"
               >
-                Reviews
+                How to Use
               </a>
             </li>
             <li>
               <a
-                href="#faq"
+                href="#pricing"
                 onClick={handleNavClick}
                 className="block px-4 py-3 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/5"
               >
-                FAQ
+                Pricing
+              </a>
+            </li>
+            <li>
+              <a
+                href="#support"
+                onClick={handleNavClick}
+                className="block px-4 py-3 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/5"
+              >
+                Support
               </a>
             </li>
           </ul>
