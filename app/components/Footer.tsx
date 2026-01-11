@@ -10,7 +10,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="py-12 px-4 my-16">
+    <footer className="py-12 px-4 my-8">
       <div className="max-w-5xl mx-auto">
         {/* Footer */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
