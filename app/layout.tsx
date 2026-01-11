@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Aurora Lamb",
-  description: "Aurora Lamb ",
+  description: "Aurora Lamb - It gives light. It gives atmosphere.",
 };
 
 export default function RootLayout({

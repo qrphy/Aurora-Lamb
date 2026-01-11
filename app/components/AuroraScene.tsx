@@ -45,7 +45,7 @@ export default function AuroraLampScene() {
           style={{ opacity: night }}
         />
       </div>
-      <p className="absolute sticky top-20 bottom-2 text-center text-black dark:text-white text-md font-semibold w-full px-4">
+      <p className="absolute sticky top-20 bottom-2 text-center text-white text-md font-semibold w-full px-4">
             You press the button we change the atmosphere.
           </p>
     </section>
