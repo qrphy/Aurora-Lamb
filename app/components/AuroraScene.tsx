@@ -27,7 +27,7 @@ export default function AuroraLampScene() {
   const night = Math.max(progress * 2 - 1, 0)
 
   return (
-    <section ref={containerRef} className="relative h-[300vh]">
+    <section ref={containerRef} className="relative h-[300vh] w-full">
       <div className="sticky top-0 h-screen w-full overflow-hidden">
         <img
           src="/Morning.jpeg"
@@ -45,9 +45,9 @@ export default function AuroraLampScene() {
           style={{ opacity: night }}
         />
       </div>
-      <p className="absolute sticky top-20 bottom-2 text-center text-white text-md font-semibold w-full px-4">
-            You press the button we change the atmosphere.
-          </p>
+      <p className="relative top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white text-md font-semibold w-full px-4 z-10">
+        You press the button we change the atmosphere.
+      </p>
     </section>
   )
 }

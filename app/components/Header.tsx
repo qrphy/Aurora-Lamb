@@ -18,7 +18,7 @@ export default function Header() {
 
   return (
     <header
-      className="fixed top-0 left-0 right-0 h-16 bg-white/95 dark:bg-black/70 backdrop-blur border-b border-gray-100 dark:border-white/5 z-50"
+      className="fixed top-0 left-0 right-0 h-16 bg-white/95 dark:bg-black backdrop-blur border-b border-gray-100 dark:border-white/5 z-50"
       role="banner"
     >
       <div className="max-w-5xl mx-auto px-4 h-full flex items-center justify-between">
