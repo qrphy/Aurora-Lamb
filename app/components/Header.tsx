@@ -56,14 +56,6 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="/how-to-use"
-                className="text-gray-800 dark:text-gray-200 hover:underline underline-offset-2"
-              >
-                How to Use
-              </a>
-            </li>
-            <li>
-              <a
                 href="/pricing"
                 className="text-gray-800 dark:text-gray-200 hover:underline underline-offset-2"
               >
@@ -152,15 +144,6 @@ export default function Header() {
                 className="block px-4 py-3 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/5"
               >
                 Features
-              </a>
-            </li>
-            <li>
-              <a
-                href="/how-to-use"
-                onClick={handleNavClick}
-                className="block px-4 py-3 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/5"
-              >
-                How to Use
               </a>
             </li>
             <li>
