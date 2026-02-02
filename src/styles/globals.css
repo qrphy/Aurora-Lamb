@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+:root { --container-width: 1024px; }
+
+html, body, #__next { height: 100%; }
+body { margin: 0; font-family:'Helvetica Neue', Arial; }
+.container { max-width: var(--container-width); margin: 0 auto; padding: 0 1rem; }
