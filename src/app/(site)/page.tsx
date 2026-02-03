@@ -4,6 +4,7 @@ import Hero from "../../components/sections/Hero";
 import Benefits from "../../components/sections/Benefits";
 import Models from "../../components/sections/Models";
 import Comparison from "../../components/sections/Comparison";
+import SmartFeatures from "../../components/sections/SmartFeatures";
 import About from "../../components/sections/About";
 import BlogPreview from "../../components/sections/BlogPreview";
 import FAQ from "../../components/sections/FAQ";

@@ -46,10 +46,6 @@ export default function Comparison() {
         {/* Heading */}
         <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
           <div>
-            <div className="inline-flex items-center gap-2 rounded-full border border-black/10 bg-white px-3 py-1 text-xs text-black/70 shadow-sm">
-              <span className="h-1.5 w-1.5 rounded-full bg-black/40" />
-              Comparison
-            </div>
             <h2 className="mt-4 text-3xl font-semibold tracking-tight text-[#0B0D12] sm:text-4xl">
             Differences
             </h2>
